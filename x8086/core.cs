@@ -4,7 +4,7 @@ using System.Text;
 
 namespace x8086
 {
-    class core
+    public class core
     {
     }
 }
