@@ -9,6 +9,9 @@ namespace CPUEmu
         {
             Console.WriteLine("Hello World!");
             core cpu = new core();
+            cpu.debugSetAx(4);
+            cpu.debugSetAx(2 << 10);
+            Console.ReadKey();
         }
     }
 }
